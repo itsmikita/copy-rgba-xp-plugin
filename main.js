@@ -3,7 +3,7 @@ const { copyText } = require( "clipboard" );
 
 const getRgbaValues = ( color ) => {
   const { r, g, b, a } = color;
-  return `rgba( ${ r }, ${ g }, ${ b }, ${ a / 255 } )`;
+  return `rgba( ${ r }, ${ g }, ${ b }, ${ Math.round( a / 255 * 100 ) / 100 } )`;
 };
 
 const copyRgbaFillValues = ( selection ) => {
