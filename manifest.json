@@ -1,5 +1,5 @@
 {
-  "summary": "Copy RGBA color values to clipboard",
+  "summary": "Copy rgba() color values to clipboard",
   "languages": [
     "en"
   ],
@@ -9,18 +9,18 @@
     "app": "XD",
     "minVersion": "13.0"
   },
-  "description": "A tiny plugin that copies CSS rgba() values of selected object.",
+  "description": "A tiny plugin that copies rgba() color values to clipboard.",
   "helpUrl": "https://itsmikita.com/",
   "id": "e11ae2cf",
   "uiEntryPoints": [
     {
       "type": "menu",
-      "label": "Fill Color",
+      "label": "Copy fill color as rgba()",
       "commandId": "copyRgbaFill"
     },
     {
       "type": "menu",
-      "label": "Border Color",
+      "label": "Copy border color as rgba()",
       "commandId": "copyRgbaBorder"
     }
   ],

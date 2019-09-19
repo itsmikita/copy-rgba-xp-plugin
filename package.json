@@ -1,12 +1,13 @@
 {
   "name": "copy-rgba-xp-plugin",
   "version": "1.0.0",
-  "description": "Copy RGBA plugin for Adobe XD",
+  "description": "A tiny plugin for Adobe XD that copies rgba() color values to clipboard.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikita Stankiewicz",
+  "repository": "https://github.com/itsmikita/copy-rgba-xp-plugin",
   "license": "ISC",
   "dependencies": {
     "@adobe/xd-plugin-toolkit": "0.0.1"
